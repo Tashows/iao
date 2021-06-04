@@ -1,5 +1,8 @@
-new fullpage('#fullpage', {
-  //Navigation
+
+$(document).ready(function(){
+  console.log("jjojo");
+  $("#fullpage").fullpage({
+    //Navigation
   // menu: '#menu',
   // lockAnchors: false,
   // anchors:['firstPage', 'secondPage'],
@@ -22,7 +25,7 @@ new fullpage('#fullpage', {
   // loopBottom: false,
   // loopTop: false,
   // loopHorizontal: true,
-  continuousVertical: false,
+  // continuousVertical: false,
   // continuousHorizontal: false,
   // scrollHorizontally: false,
   // interlockedSlides: false,
@@ -67,14 +70,17 @@ new fullpage('#fullpage', {
   //
   // //events
   // onLeave: function(origin, destination, direction){},
-  // afterLoad: function(origin, destination, direction){},
+  afterLoad: function(anchor, index){
+    console.log(anchor);
+    console.log(index);
+  },
   // afterRender: function(){},
   // afterResize: function(width, height){},
   // afterReBuild: function(){},
   // afterResponsive: function(isResponsive){},
-  afterSlideLoad: function(section, origin, destination, direction){
-    console.log(section);
-    // section.find("h1").addClass("opacity-100 translate-y-8").removeClass("opacity-0 translate-y-0")
+  afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
+    console.log("hey")
   },
   // onSlideLeave: function(section, origin, destination, direction){}
+  })
 });

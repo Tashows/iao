@@ -15,5 +15,5 @@
 }
 
 .main-text {
-  @apply font-h2 text-2xl text-gray-300 mt-24
+  @apply font-h2 text-gray-300
 }

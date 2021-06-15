@@ -1,9 +1,9 @@
-
 $(document).ready(function(){
   console.log("jjojo");
   $("#fullpage").fullpage({
+    anchors: ['home', 'aim', 'about_IAO', 'contact_us'],
     //Navigation
-  // menu: '#menu',
+  menu: '#menu',
   // lockAnchors: false,
   // anchors:['firstPage', 'secondPage'],
   // navigation: false,
@@ -19,7 +19,7 @@ $(document).ready(function(){
   // autoScrolling: true,
   // fitToSection: true,
   // fitToSectionDelay: 1000,
-  // scrollBar: false,
+  scrollBar: true,
   // easing: 'easeInOutCubic',
   // easingcss3: 'ease',
   // loopBottom: false,
@@ -41,7 +41,7 @@ $(document).ready(function(){
   // bigSectionsDestination: null,
   //
   // //Accessibility
-  // keyboardScrolling: true,
+  keyboardScrolling: true,
   // animateAnchor: true,
   // recordHistory: true,
   //

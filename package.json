@@ -1,10 +1,10 @@
 {
-  "name": " ",
+  "name": "iao",
   "version": "0.0.1",
   "description": "",
   "keywords": "",
-  "license": "",
-  "author": "",
+  "license": "MIT",
+  "author": "Tashows",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "vite",
@@ -13,14 +13,15 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
-    "parcel-bundler": "^1.10.3",
-    "postcss": "^8.3.0",
-    "tailwindcss": "^2.1.4",
-    "vite": "^2.3.6"
+    "parcel-bundler": "^1.9.4",
+    "postcss": "^8.3.4",
+    "tailwindcss": "^2.0.4",
+    "vite": "^2.3.7"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "fullpage.js": "^3.1.1",
-    "node-forge": "^0.10.0"
+    "node-forge": "^0.10.0",
+    "npm-check-updates": "^11.6.0"
   }
 }

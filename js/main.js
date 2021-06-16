@@ -70,17 +70,17 @@ $(document).ready(function(){
   //
   // //events
   // onLeave: function(origin, destination, direction){},
-  afterLoad: function(anchor, index){
-    console.log(anchor);
-    console.log(index);
-  },
+  // afterLoad: function(anchor, index){
+  //   console.log(anchor);
+  //   console.log(index);
+  // },
   // afterRender: function(){},
   // afterResize: function(width, height){},
   // afterReBuild: function(){},
   // afterResponsive: function(isResponsive){},
-  afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
-    console.log("hey")
-  },
+  // afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
+  //   console.log("hey")
+  // },
   // onSlideLeave: function(section, origin, destination, direction){}
   })
 });

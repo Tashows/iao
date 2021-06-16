@@ -11,7 +11,7 @@
 
 .font-h2 {
   font-family: 'Rasa', serif; 
-  @apply text-xl lg:text-2xl text-gray-200;
+  @apply text-xl lg:text-2xl text-gray-300;
 }
 
 [data-menuanchor].active {

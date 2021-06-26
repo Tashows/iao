@@ -10,8 +10,8 @@
 }
 
 .font-h2 {
-  font-family: 'Rasa', serif; 
-  @apply text-lg leading-tight md:leading-normal  lg:text-2xl text-gray-300;
+  font-family: 'Rasa', serif;
+  @apply text-lg leading-tight md:leading-normal lg:text-xl text-gray-300;
 }
 
 [data-menuanchor].active {

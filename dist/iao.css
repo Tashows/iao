@@ -553,16 +553,23 @@ video {
 
 .button {
   font-family: 'Rasa', serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
+  line-height: 1.25;
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .button {
+    line-height: 1.5;
+  }
+}
+
 @media (min-width: 1024px) {
   .button {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -627,16 +634,23 @@ video {
 
 .font-h2 {
   font-family: 'Rasa', serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
+  line-height: 1.25;
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .font-h2 {
+    line-height: 1.5;
+  }
+}
+
 @media (min-width: 1024px) {
   .font-h2 {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
